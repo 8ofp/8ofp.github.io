@@ -28,21 +28,23 @@
         }
         body {
             font-size: 20px;
-            font-size: calc((15px + 0.390625vw)*1.25);
+	        font-size: calc((15px + 0.390625vw)*1.25);
         }
         h1 {
             font-size: 2em;
         }
         h1 span {
-            width: 1.2em;
-            height: 1.2em;
-            display: block;
+            width: 1.25em;
+            height: 1.25em;
+            ratio: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             border: 0.1em solid;
             border-radius: 50%;
             float: left;
-            text-align: center;
-            line-height: 1.05em;
             margin-right: 0.25em;
+            padding-bottom: 0.025em;
         }
         main {
             padding: 1em;
